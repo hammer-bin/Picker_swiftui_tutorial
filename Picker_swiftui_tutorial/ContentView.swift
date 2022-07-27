@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selectionValue = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Picker("피커", selection: $selectionValue, content: {
+            Text("수박").tag(0)
+            Text("바나나").tag(1)
+            Text("딸기").tag(2)
+        })
     }
 }
 
