@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8990380C289317310018E8FD /* MyFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990380B289317310018E8FD /* MyFilteredList.swift */; };
 		89AB17312891EC3C00345ED5 /* Picker_swiftui_tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB17302891EC3C00345ED5 /* Picker_swiftui_tutorialApp.swift */; };
 		89AB17332891EC3C00345ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB17322891EC3C00345ED5 /* ContentView.swift */; };
 		89AB17352891EC3E00345ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AB17342891EC3E00345ED5 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8990380B289317310018E8FD /* MyFilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilteredList.swift; sourceTree = "<group>"; };
 		89AB172D2891EC3C00345ED5 /* Picker_swiftui_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picker_swiftui_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AB17302891EC3C00345ED5 /* Picker_swiftui_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_swiftui_tutorialApp.swift; sourceTree = "<group>"; };
 		89AB17322891EC3C00345ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				89AB17302891EC3C00345ED5 /* Picker_swiftui_tutorialApp.swift */,
 				89AB17322891EC3C00345ED5 /* ContentView.swift */,
+				8990380B289317310018E8FD /* MyFilteredList.swift */,
 				89AB17342891EC3E00345ED5 /* Assets.xcassets */,
 				89AB17362891EC3E00345ED5 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8990380C289317310018E8FD /* MyFilteredList.swift in Sources */,
 				89AB17332891EC3C00345ED5 /* ContentView.swift in Sources */,
 				89AB17312891EC3C00345ED5 /* Picker_swiftui_tutorialApp.swift in Sources */,
 			);
